@@ -4,7 +4,8 @@
   "description": "08/23으로 되돌아가서 다시 복습하기. 내 관점과 실력은 얼마나 나아졌는가?",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
