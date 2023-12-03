@@ -3,6 +3,7 @@
 const path = require('path');
 
 module.exports = {
+  mode: 'development', // 또는 'production'
   entry: './client/src/index.js', // 진입점 설정
   output: {
     filename: 'bundle.js',
