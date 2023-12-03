@@ -3,8 +3,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Test from './components/test/test.js';  // Test 컴포넌트 import
+import NewComponent from './components/NewComponent.js';  // NewComponent 컴포넌트 import
 
 ReactDOM.render(
-  <Test />,
+  <NewComponent />,
   document.getElementById('root')
 );
