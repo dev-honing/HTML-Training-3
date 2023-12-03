@@ -5,7 +5,8 @@ import React from 'react';
 const NewComponent = () => {
   return (
     <div>
-      <h1>This is a New Component</h1>
+      <h1>성공인가?</h1>
+      <h2>근데 왜 얘만 되지?</h2>
     </div>
   );
 };
