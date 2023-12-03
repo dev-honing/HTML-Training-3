@@ -1,7 +1,9 @@
+// webpack.config.js
+
 const path = require('path');
 
 module.exports = {
-  entry: './client/src/App.js', // 진입점 설정
+  entry: './client/src/index.js', // 진입점 설정
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
