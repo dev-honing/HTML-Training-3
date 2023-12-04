@@ -10,8 +10,6 @@ EXPRESS.js
 REACT.js
 ```
 ## 패키지
-### express 설치:
-`npm install express`
 
 ### React 및 ReactDOM 설치:
 `npm install react react-dom`
