@@ -1,6 +1,7 @@
 // webpack.config.js
 
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   mode: 'development', // 또는 'production'
@@ -8,8 +9,11 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/dist/', // 번들링 파일 위치 설정
   },
+  plugins: [new HtmlWebpackPlugin({
+    template: './client/public/index.html',
+    filename: 'bundle.html',
+  })],
   module: {
     rules: [
       {

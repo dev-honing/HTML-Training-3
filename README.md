@@ -19,3 +19,6 @@ REACT.js
 
 ### Webpack 및 관련 로더 설치:
 `npm install webpack webpack-cli webpack-dev-server style-loader css-loader`
+
+### Webpack 및 관련 플러그인 설치:
+`npm install html-webpack-plugin`
