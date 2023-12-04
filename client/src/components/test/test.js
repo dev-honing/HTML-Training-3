@@ -1,14 +1,14 @@
 // src/components/test/test.js
 
-import React from 'react';
-import './test.css';
+var React = require('react');
+var testCSS = require('./test.css');
 
-const Test = () => {
+function Test() {
   return (
     <div>
       <h1 className="test-heading">테스트</h1>
     </div>
   );
-};
+}
 
-export default Test;
+module.exports = Test;
