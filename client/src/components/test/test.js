@@ -1,7 +1,7 @@
 // src/components/test/test.js
 
 import React from 'react';
-import './test.css';
+// import './test.css';
 
 const Test = () => {
   return (
