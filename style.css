@@ -78,18 +78,15 @@
   width: 70vw;
   height: 50vh;
   flex-direction: column;
-  background-color: #000;
+  background-color: #d9d9d9;
 
 }
 #lowerPage > :nth-child(2) > :nth-child(1) > :nth-child(1) {
-  background-color: #ffa;
   flex: 2;
 }
 #lowerPage > :nth-child(2) > :nth-child(1) > :nth-child(2) {
-  background-color: #ffa500;
   flex: 8;
 }
 #lowerPage > :nth-child(2) > :nth-child(2) {
-  background-color: blue;
   width: 30vw;
 }
