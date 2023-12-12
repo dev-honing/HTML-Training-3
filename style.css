@@ -30,6 +30,13 @@
   width: 20vw;
   height: 50vh;
   background-color: #e7e7e7;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 #upperPage > :nth-child(2) {
@@ -41,14 +48,40 @@
 #upperPage > :nth-child(2) > :nth-child(1) {
   height: 20vh;
 
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 #upperPage > :nth-child(2) > :nth-child(2) {
   height: 60vh;
+
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+
 
 }
 #upperPage > :nth-child(2) > :nth-child(3) {
   height: 20vh;
 
+  font-family: Inter;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0em;
+text-align: left;
+
+}
+
+span {
+  color: red;
 }
 
 #lowerPage {
