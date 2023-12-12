@@ -55,16 +55,41 @@
   height: 50vh;
   border: 1px solid #000;
   display: flex;
+  background-color: #d9d9d9;
+}
+
+#lowerPage div {
+  display: flex;
+  flex-direction: column;
 }
 
 #lowerPage > :nth-child(1) {
   width: 20vw;
   height: 50vh;
-  background-color: #000;
 }
 
 #lowerPage > :nth-child(2) {
   width: 80vw;
   height: 50vh;
-  background-color: #999;
+  flex-direction: row;
+}
+
+#lowerPage > :nth-child(2) > :nth-child(1) {
+  width: 70vw;
+  height: 50vh;
+  flex-direction: column;
+  background-color: #000;
+
+}
+#lowerPage > :nth-child(2) > :nth-child(1) > :nth-child(1) {
+  background-color: #ffa;
+  flex: 2;
+}
+#lowerPage > :nth-child(2) > :nth-child(1) > :nth-child(2) {
+  background-color: #ffa500;
+  flex: 8;
+}
+#lowerPage > :nth-child(2) > :nth-child(2) {
+  background-color: blue;
+  width: 30vw;
 }
