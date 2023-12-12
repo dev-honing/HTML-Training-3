@@ -13,13 +13,13 @@
   flex-direction: column;
 }
 
-#upperBox {
+#upperPage {
   width: 100vw;
   height: 50vh;
   border: 1px solid #000
 }
 
-#lowerBox {
+#lowerPage {
   width: 100vw;
   height: 50vh;
   border: 1px solid #000
