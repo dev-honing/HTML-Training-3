@@ -23,6 +23,7 @@
 #upperPage div {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 #upperPage > :nth-child(1) {
@@ -61,6 +62,8 @@
 #lowerPage div {
   display: flex;
   flex-direction: column;
+
+  justify-content: center;
 }
 
 #lowerPage > :nth-child(1) {
