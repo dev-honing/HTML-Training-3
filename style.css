@@ -16,11 +16,37 @@
 #upperPage {
   width: 100vw;
   height: 50vh;
-  border: 1px solid #000
+  border: 1px solid #000;
+  display: flex;
+}
+
+#upperPage > :nth-child(1) {
+  width: 20vw;
+  height: 50vh;
+  background-color: #000;
+}
+
+#upperPage > :nth-child(2) {
+  width: 80vw;
+  height: 50vh;
+  background-color: #999;
 }
 
 #lowerPage {
   width: 100vw;
   height: 50vh;
-  border: 1px solid #000
+  border: 1px solid #000;
+  display: flex;
+}
+
+#lowerPage > :nth-child(1) {
+  width: 20vw;
+  height: 50vh;
+  background-color: #000;
+}
+
+#lowerPage > :nth-child(2) {
+  width: 80vw;
+  height: 50vh;
+  background-color: #999;
 }
