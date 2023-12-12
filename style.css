@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid #000;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#upperBox {
+  width: 100vw;
+  height: 50vh;
+  border: 1px solid #000
+}
+
+#lowerBox {
+  width: 100vw;
+  height: 50vh;
+  border: 1px solid #000
+}
