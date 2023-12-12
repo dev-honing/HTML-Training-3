@@ -18,31 +18,35 @@
   height: 50vh;
   border: 1px solid #d9d9d9;
   display: flex;
+
+  margin: 1rem;
 }
 
 #upperPage div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 #upperPage > :nth-child(1) {
   width: 20vw;
   height: 50vh;
   background-color: #e7e7e7;
-
+  
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0em;
   text-align: left;
+  padding-top: 10vh;
 }
 
 #upperPage > :nth-child(2) {
   width: 80vw;
   height: 50vh;
   background-color: #d9d9d9;
+
+  padding: 2rem;
 }
 
 #upperPage > :nth-child(2) > :nth-child(1) {
@@ -54,6 +58,8 @@
   line-height: 39px;
   letter-spacing: 0em;
   text-align: left;
+
+  margin-top: 3vh;
 }
 #upperPage > :nth-child(2) > :nth-child(2) {
   height: 60vh;
@@ -76,7 +82,7 @@
   font-weight: 400;
   line-height: 58px;
   letter-spacing: 0em;
-text-align: left;
+  text-align: left;
 
 }
 
@@ -87,16 +93,16 @@ span {
 #lowerPage {
   width: 100vw;
   height: 50vh;
-  border: 1px solid #000;
   display: flex;
   background-color: #d9d9d9;
+
+  margin: 1rem;
 }
 
 #lowerPage div {
   display: flex;
   flex-direction: column;
-
-  justify-content: center;
+  
 }
 
 #lowerPage > :nth-child(1) {
@@ -109,12 +115,17 @@ span {
   line-height: 15px;
   letter-spacing: 0em;
   text-align: left;
+
+  margin-top: 10vh;
+
 }
 
 #lowerPage > :nth-child(2) {
   width: 80vw;
   height: 50vh;
   flex-direction: row;
+
+  padding: 2rem;
 }
 
 #lowerPage > :nth-child(2) > :nth-child(1) {
@@ -122,6 +133,8 @@ span {
   height: 50vh;
   flex-direction: column;
   background-color: #d9d9d9;
+
+  padding-top: 3vh;
 }
 #lowerPage > :nth-child(2) > :nth-child(1) > :nth-child(1) {
   flex: 2;
@@ -153,4 +166,6 @@ span {
   line-height: 15px;
   letter-spacing: 0em;
   text-align: left;
+
+  padding-top: 8vh;
 }
